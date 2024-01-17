@@ -7,6 +7,7 @@ export default function BikeList({ setDetailsBikeId }) {
 
   const getAllBikes = () => {
     getBikes().then(setBikes);
+    console.log(bikes)
   };
 
   useEffect(() => {
